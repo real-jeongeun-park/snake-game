@@ -1,7 +1,10 @@
 # 🐍 Snake Game
 
-2022학년도 2학기 C프로그래밍 학기말 프로젝트로 구현한 C언어 기반 Snake Game입니다.<br/>
-고전 게임 Snake에서 아이디어를 얻어 제작했으며, 기존의 일부 기능은 제거하고 새로운 기능(Vitality, Time Checking 등)을 추가해 재구성했습니다.
+2022학년도 2학기 C프로그래밍 학기말 프로젝트로 구현한 C언어 기반 Snake Game입니다. 고전 게임 Snake에서 아이디어를 얻어 제작했으며, 기존의 일부 기능은 제거하고 새로운 기능(Vitality, Time Checking 등)을 추가해 재구성했습니다.
+
+<img width="251" height="215" alt="image01" src="https://github.com/user-attachments/assets/d2e8bc6c-eb7d-4c95-a50c-1a984a60c623" />
+<img width="251" height="215" alt="image02" src="https://github.com/user-attachments/assets/5790341c-ca8a-4edb-9260-2b92e3f99034" />
+<img width="251" height="215" alt="image03" src="https://github.com/user-attachments/assets/6d766d5e-6b0c-4835-986c-fd7600a07db5" />
 
 ## 📌 게임 소개
 
@@ -43,11 +46,11 @@
 3. **게임 화면** (`gameStatus == 1`) — Snake 이동, Vitality/점수 표시
 4. **종료 화면** (`gameStatus == 3`) — 최종 점수 및 최고 기록 표시
 
-<img width="1364" height="1232" alt="콘솔창" src="https://github.com/user-attachments/assets/8dc852b0-d0cb-4d01-ab55-b3ad736ff1f5" />
+<img width="964" height="832" alt="콘솔창" src="https://github.com/user-attachments/assets/8dc852b0-d0cb-4d01-ab55-b3ad736ff1f5" />
 
 ## 🔀 순서도
 
-<img width="1364" height="1688" alt="기능 copy" src="https://github.com/user-attachments/assets/1c9bc8b6-e051-4b13-a9fc-a86d5b7c8663" />
+<img width="964" height="1288" alt="기능 copy" src="https://github.com/user-attachments/assets/1c9bc8b6-e051-4b13-a9fc-a86d5b7c8663" />
 
 ## ✨ 주요 기능
 
