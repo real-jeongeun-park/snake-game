@@ -1,4 +1,4 @@
-# 🐍 Snake Game
+# Snake Game
 
 2022학년도 2학기 C프로그래밍 학기말 프로젝트로 구현한 C언어 기반 Snake Game입니다. 고전 게임 Snake에서 아이디어를 얻어 제작했으며, 기존의 일부 기능은 제거하고 새로운 기능(Vitality, Time Checking 등)을 추가해 재구성했습니다.
 
@@ -6,7 +6,7 @@
 <img width="251" height="215" alt="image02" src="https://github.com/user-attachments/assets/5790341c-ca8a-4edb-9260-2b92e3f99034" />
 <img width="251" height="215" alt="image03" src="https://github.com/user-attachments/assets/6d766d5e-6b0c-4835-986c-fd7600a07db5" />
 
-## 📌 게임 소개
+## 게임 소개
 
 플레이어는 방향키로 Snake를 조작해 **최대한 오랫동안 생존**하는 것이 목표인 게임입니다.
 
@@ -16,7 +16,7 @@
 - 생존 시간이 곧 **Score**이며, 플레이 시간이 길어질수록 Vitality 감소 속도가 점점 빨라져 난이도가 상승합니다.
 - 최고 기록(Highest Score)은 파일에 저장되어 다음 플레이에도 유지됩니다.
 
-## 🛠 사용 기술 / 개발 환경
+## 사용 기술 / 개발 환경
 
 - **언어**: C
 - **개발 환경**: Visual Studio 2022 (Windows)
@@ -27,7 +27,7 @@
   - `<time.h>` — 경과 시간 계산 (`clock`)
   - `<windows.h>` — Windows API (`Sleep`, 커서 위치 제어 등)
 
-## 🎮 조작 방법
+## 조작 방법
 
 | 키 | 동작 |
 |---|---|
@@ -37,7 +37,7 @@
 
 > 이동 중인 방향의 반대 방향키는 입력이 무시됩니다. (예: 오른쪽으로 이동 중일 때 왼쪽 키 입력 불가)
 
-## 🖥 화면 구성
+## 화면 구성
 
 프로그램은 `gameStatus` 값에 따라 총 4가지 화면으로 전환됩니다.
 
@@ -48,11 +48,11 @@
 
 <img width="964" height="832" alt="콘솔창" src="https://github.com/user-attachments/assets/8dc852b0-d0cb-4d01-ab55-b3ad736ff1f5" />
 
-## 🔀 순서도
+## 순서도
 
 <img width="964" height="1288" alt="기능 copy" src="https://github.com/user-attachments/assets/1c9bc8b6-e051-4b13-a9fc-a86d5b7c8663" />
 
-## ✨ 주요 기능
+## 주요 기능
 
 - Snake 및 게임 필드(맵) 렌더링
 - 방향키 입력 처리 및 이동 로직
@@ -61,6 +61,6 @@
 - 플레이 시간에 따른 난이도(Vitality 감소 속도) 자동 조절
 - 최고 점수 파일 저장 및 불러오기 (`highscore.txt`)
 
-## 📁 참고
+## 참고
 
 자세한 설계 과정, 순서도, 구현 코드 및 결과 분석은 프로젝트 리포트(`report.pdf`)를 참고해 주세요.
